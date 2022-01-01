@@ -1,4 +1,4 @@
-package com.example.animefie
+package io.nathancooper.animefie
 
 import io.flutter.embedding.android.FlutterActivity
 
