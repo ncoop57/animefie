@@ -228,6 +228,7 @@ class _CameraScreenState extends State<CameraScreen> {
                   icon: const Icon(Icons.switch_camera_rounded,
                       color: Colors.white),
                 ),
+                // Switch between loading indicator and capture button.
                 AnimatedSwitcher(
                   // From: https://stackoverflow.com/a/62779504
                   duration: const Duration(milliseconds: 300),
@@ -320,6 +321,7 @@ class _CameraScreenState extends State<CameraScreen> {
   }
 
   _toggle() {
+    // Toggle the loading indicator.
     setState(() {
       isLoading = !isLoading;
     });
