@@ -22,4 +22,15 @@ That's it! This should install the app on your device and launch it so that you 
 
 ## About the Project
 
-This project uses the awesome AnimeGANv2 pytorch model from [@bryandlee](https://github.com/bryandlee/animegan2-pytorch) to generate anime faces from your selfies. The model is hosted using the awesome [HuggingFace Spaces](https://huggingface.co/spaces) API by [@akhaliq](https://huggingface.co/spaces/akhaliq/AnimeGANv2). Thanks to the awesome [gradio](https://www.gradio.app/) library that HuggingFace Spaces allows you to use for hosting a model and allows for an easy to use endpoint that this app takes advantage of. The app it self is written entirely in Dart using the Flutter framework and uses the awesome example flutter camera app project from [@jagrut-18](https://github.com/jagrut-18/flutter_camera_app) and some other amazing people (it is crazy how hard handling things like device orientation for a camera app can be so that the image is saved in the correct orientation).
+This project started off uses the awesome AnimeGANv2 pytorch model from [@bryandlee](https://github.com/bryandlee/animegan2-pytorch) to generate anime faces from your selfies. The model is hosted using the awesome [HuggingFace Spaces](https://huggingface.co/spaces) API by [@akhaliq](https://huggingface.co/spaces/akhaliq/AnimeGANv2). Thanks to the awesome [gradio](https://www.gradio.app/) library that HuggingFace Spaces allows you to use for hosting a model and allows for an easy to use endpoint that this app takes advantage of. The app it self is written entirely in Dart using the Flutter framework and uses the awesome example flutter camera app project from [@jagrut-18](https://github.com/jagrut-18/flutter_camera_app) and some other amazing people (it is crazy how hard handling things like device orientation for a camera app can be so that the image is saved in the correct orientation).
+
+The project has expanded to include even more models! The currently supported models are the following:
+1. ArcaneGAN: https://huggingface.co/spaces/akhaliq/ArcaneGAN
+2. AnimeGANv2: https://huggingface.co/spaces/akhaliq/AnimeGANv2
+3. JoJoGAN: https://huggingface.co/spaces/akhaliq/JoJoGAN,
+4. GFP-GAN: https://huggingface.co/spaces/akhaliq/GFPGAN
+5. Apocalyptify: https://huggingface.co/spaces/Norod78/Apocalyptify
+
+## Privacy Policy
+
+This app does not store any photos you take outside of your device. The modified images are saved to your device. The photos you do take will be transferred to the server that hosts the Deep Learning models in order to generate their modified versions. These photos are not encrypted when transferred due to the requirements of the hosted Deep Learning models API. These Deep Learning models are hosted using the [HuggingFace Spaces](https://huggingface.co/spaces) API and are not controlled by me and so I cannot be held responsible for any issues that may arise from your photos being shared with these spaces. Please see each Space's URL for more information on how they handle your photos.
