@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Camera App',
+      title: 'Animefie',
       home: CameraScreen(cameras: cameras),
     );
   }
