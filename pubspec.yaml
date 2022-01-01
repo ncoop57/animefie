@@ -28,6 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   camera: ^0.8.1 # Newer version was causing issues
+  flutter_spinkit: ^5.1.0
   http: ^0.13.4
   gallery_saver: 2.1.0 # Newer version was causing issues
   flutter:
