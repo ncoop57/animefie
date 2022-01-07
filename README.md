@@ -8,6 +8,10 @@ https://user-images.githubusercontent.com/7613470/143511542-02669f5c-d85c-4727-9
 
 ## How to Install
 
+Install via google play store: https://play.google.com/store/apps/details?id=io.nathancooper.animefie
+
+Or locally
+
 I have only tested this on my personal Pixel 3a XL device that is running Android 12, so I can't guarantee it will work on other devices or OS versions. If you have any issues, please let me know!
 
 Here are the steps to install:
